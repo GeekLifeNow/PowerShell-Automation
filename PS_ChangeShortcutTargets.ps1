@@ -1,9 +1,9 @@
 # Start Script
 [string]$ScriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
 
-#--------------------------------------#
-# This function writes to the log file #
-#--------------------------------------#
+#---------------------------------------#
+# This function writes to the log file. #
+#---------------------------------------#
 function Write-Log {
     <#
     .SYNOPSIS
